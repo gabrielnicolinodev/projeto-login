@@ -2,8 +2,8 @@
 
 /*
 Paleta de cores
-Verde: #49a09d
-Lilás: #5f2c82
+Verde: #0b6461
+Lilás: #cacaca
 
 */
 
@@ -15,7 +15,7 @@ Lilás: #5f2c82
 }
 
 body, html{
-    background-color: #5f2c82;
+    background-color: #0b6461;
     height: 100vh;
     width: 100vw;
 }
@@ -46,7 +46,7 @@ section#login{
 
 section#login > div#imagem{
     display: block;
-    background: #5f2c82 url(../imagens/relódio.jpg) no-repeat;
+    background: #0b6461 url(../imagens/relódio.jpg) no-repeat;
     background-size: cover;
     background-position: left center;
     height: 200px;
@@ -56,3 +56,13 @@ section#login > div#formulario{
     display: block;
     padding: 10px;
 }
+
+div#formulario > h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+div#formulario > p{
+    font-size: 0.8em;
+}
+
